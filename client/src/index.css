@@ -1,0 +1,388 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.content{
+  display:flex; 
+  flex-direction:column; 
+  min-height:85vh;
+  background-image: url("https://www.transparenttextures.com/patterns/padded-light.png");
+}
+
+.footerr{
+  background-color: rgb(82, 82, 82);
+  bottom: 0;
+}
+
+.register-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/padded-light.png");
+
+}
+
+.login-form{
+  width : 21rem;
+}
+
+.register-form{
+  width: 20rem;
+}
+
+.spinner{
+  height : 45rem;
+  background-image: url("https://www.transparenttextures.com/patterns/padded-light.png");
+
+}
+.adding{
+  box-shadow: 1px 1px 6px gray;
+  border-radius: 35px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.ml-2{
+  margin-left: 7%;
+}
+
+.save-button{
+  width: 6rem;
+  height: 2rem;
+}
+
+
+.inner-card {
+  margin: 3%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px gray;
+}
+
+.inner-card-title {
+  margin: 2% 3% ;
+  font-size: 25px;
+}
+
+.inner-card-content {
+  padding: 3%;
+  color: #000000;
+  font-size: 15px;
+  margin-bottom: 0;
+  
+}
+
+
+.income-expense{
+  width: 35%;
+}
+.form-category{
+  width:75%
+}
+.form-date{
+  width: 50%;
+}
+.bottom-half{
+  background-color: #ededed;
+  border-radius: 0 0 9px 9px;
+}
+
+.inner-card-content-1{
+  width:25%
+}
+
+.inner-card-content-2{
+  width:25%
+}
+.inner-card-content-3{
+  margin-left: 0;
+}
+
+.table-body{
+  margin:10%;
+  margin-top: 0%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px gray;
+}
+
+
+.recent-transaction{
+  width: 37rem;
+  margin-left: 6%;
+}
+
+.date-filter{
+  box-shadow: 0px 0px 3px gray;
+  margin: 0 40%;
+  border-radius: 8px 8px 0px 0px ;
+  
+}
+
+.filter-name-div{
+  background-color: #FAFAFA;
+  padding:5%;
+  border-radius: 8px 0 0 0 ;
+}
+
+.dropdown-filter{
+  padding: 4%;
+  width: 234px;
+  background-color: #f5f4eb;
+  border-radius: 0 8px  0 0;
+}
+
+.dropdown{
+  width: 100%;
+}
+
+.range-picker{
+  width: 30%;
+  box-shadow: 0px 1px 2px gray;
+  border-radius: 8px 8px 0 0;
+}
+
+.range-picker-div{
+  text-align: center;
+}
+
+.analytics{
+
+  width: 37rem;
+  margin-right: 6%;
+  margin-left: 3%;
+}
+
+.pie-chart{
+  box-shadow: 0 0 6px gray;
+  margin-bottom: 3rem;
+  border-radius: 20px;
+  height: 21rem;
+  background-color: #fbf5ea;
+}
+
+.in-ex{
+  padding: 3% 4%;
+  box-shadow: 0px 1px 6px gray;
+  border-radius: 10px;
+  background-color: #f5eddf;
+  
+}
+.labels{
+  width: 250px;
+  margin: 14px 0;
+  height: 30px;
+}
+
+.label-badge{
+  border-radius: 10px;
+  width: 10px;
+  margin-top: 4px;
+  margin-right: 0;
+  box-shadow: 2px 1px 4px gray;
+  height: 20px;
+  background-color: tomato;
+}
+
+.label-font{
+  font-size: 17px;
+  padding: 0.25rem 0.4rem;
+  font-weight: 470;
+}
+
+.labels-divi{
+  padding: 3px 25px ;
+}
+
+.pie-div{
+  padding-top: 17px;
+}
+
+.upper-text{
+  position: absolute;
+  top: 90%;
+  right: 33.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date-tag{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.dashboard-text{
+  font-size: 50px;
+}
+
+.custom-nav{
+  box-shadow: 0 2px 6px gray;
+  padding: 1.5% ;
+  
+  background-color: #a78282;
+}
+
+.upper-half{
+  border-radius: 10px 10px 0 0;
+  background-color: #ece1cc;
+}
+
+
+
+.add-button{
+  box-shadow: 0 0 6px gray;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgb(250, 244, 232);
+}
+
+.analytics-filter{
+  width: 400px;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.analytics-heading{
+  padding-left: 230px;
+}
+
+.analytics-filter-ac{
+  width: 180px;
+  padding-left: 40px;
+}
+
+.filter-name{
+  margin: 0;
+  margin-bottom: 5px;
+  padding-left: 90px;
+}
+
+.no-transaction{
+  margin-top: 140px;
+  text-shadow: 0 0 2px gray;
+}
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:83px;
+  height:26px;
+  border-width:1px;
+  color:rgba(58, 58, 58, 1);
+  border-color:rgba(10, 10, 10, 1);
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 7px 5px -5px rgba(121, 121, 121, 1);
+  text-shadow: 0px 0px 0px rgba(230, 230, 230, 1);
+  background:rgba(230, 230, 230, 1);
+  margin-top: 4px;
+}
+
+.buttonClass:hover {
+  background: rgba(255, 255, 255, 1)
+}
+
+
+
+.login-div{
+  padding: 3.5%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px gray;
+  background-color: #ffffff8f;
+}   
+          
+.register-div{
+  padding: 3.5%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px gray;
+  background-color: #ffffff8f;
+} 
+
+@media screen and (max-width : 900px){
+
+  .content-box-homepage{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recent-transaction{
+    margin: 5%;
+    width: 70%;
+    
+  }
+  .inner-card{
+    margin:0;
+    margin-bottom: 4%;
+  }
+  .analytics{
+    margin:5%;
+    margin-top: 0;
+    width: 70%;
+  }
+
+  .labels-divi{
+    width: 50%;
+  }
+  .labels{
+    width: 100%;
+  }
+  .heading-analytics-div{
+    flex-direction: column;
+    align-items: center;
+  }
+  .analytics-heading{
+    padding: 0;
+    width: 100%;
+  }
+  .analytics-h{
+    margin: 5% !important;
+  }
+  .analytics-filter{
+    width: 40%;
+    padding: 5% 0;
+    padding-top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .filter-name{
+    padding: 0;
+  }
+  .analytics-filter-ac{
+    padding: 0;
+  }
+  
+}
+
+
+@media screen and (max-width : 680px) {
+  .pie-chart{
+    flex-direction: column;
+    align-items: center;
+    height: 120%;
+  }
+  .labels{
+    width: 100%;
+  }
+  .labels-divi{
+    width: 80%;
+  }
+  .recent-transaction{
+    width: 85%;
+    margin-top: 0;
+  }
+  .analytics{
+    width: 85%;
+  }
+  .heading-class{
+    flex-direction: column;
+    align-items: center;
+  }
+}
