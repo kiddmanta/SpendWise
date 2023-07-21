@@ -34,6 +34,7 @@ const Register = () => {
     
       {loading ? <Spin size = 'large' className='d-flex justify-content-center align-items-center spinner'/> : 
       <div className='register-page'>
+      <h1 className='mb-5' style={{fontStyle : 'italic',fontSize: '50px',textShadow: '0 1px 2px black'}}>SpendWise</h1>
       <div className='register-div'>
 
       
