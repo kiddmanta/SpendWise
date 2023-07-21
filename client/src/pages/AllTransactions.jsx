@@ -18,7 +18,7 @@ const AllTransactions = () => {
   const [deleted,setDeleted] = useState(null);
   const [showModal,setShowModal] = useState(false);
   const [modalKey, setModalKey] = useState(Date.now())
-  const [time,setTime] = useState('7');
+  const [time,setTime] = useState('30');
   const [showConfirmModal,setConfirmModal] = useState(false);
   const [selectedDate,setSelectedDate] = useState([])
   

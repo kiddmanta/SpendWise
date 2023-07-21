@@ -8,7 +8,7 @@ const DateFilter = (props) => {
             Filter:
           </div>
           <div className='dropdown-filter'>
-            <Select className='dropdown' onSelect={(value)=>props.setTime(value)} defaultValue='7'>
+            <Select className='dropdown' onSelect={(value)=>props.setTime(value)} defaultValue='30'>
               <Select.Option value="7">Last 1 Week</Select.Option>
               <Select.Option value="30">Last 1 Month</Select.Option>
               <Select.Option value="365">Last 1 Year</Select.Option>

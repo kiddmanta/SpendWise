@@ -11,7 +11,7 @@ const { RangePicker } = DatePicker;
 const Income = () => {
 
   const [transaction,setTransaction] = useState([]);
-  const [time,setTime] = useState('7');
+  const [time,setTime] = useState('30');
   const [selectedDate,setSelectedDate] = useState([])
 
 
