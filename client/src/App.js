@@ -19,7 +19,6 @@ function App() {
     }).catch(()=>{
       console.log("cleared");
       localStorage.clear();
-      navigate("/login");
     })
     
   },[navigate])
